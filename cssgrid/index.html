@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grids</title>
+    <style type="text/css">
+        .wrapper {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            /* grid-column-gap: 1em;
+            grid-row-gap: 1em;; */
+            grid-gap: 1em;
+            /* grid-template-columns: 40% 30% 30%; */
+        }
+
+        .wrapper>div {
+            background: #eee;
+            padding: 1em;
+            /* border: 1px black solid;
+        margin: 10px; */
+        }
+
+        .wrapper>div:nth-child(odd) {
+            background: #ddd;
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus temporibus et consequuntur architecto odit
+            fugit autem voluptate nulla. Nisi aperiam doloremque dolorem soluta consequuntur, praesentium ab recusandae
+            vero tenetur illum quaerat distinctio? Pariatur atque reprehenderit commodi veniam beatae tenetur dolorem
+            cupiditate consequatur architecto alias minima dignissimos tempore, libero distinctio quam iure. Officiis
+            fugiat dolorem fuga omnis magnam voluptates saepe sunt atque itaque optio nostrum quisquam dolorum totam
+            asperiores excepturi tempora architecto ipsum odio voluptatum magni, nulla dolores quo ducimus. Mollitia.
+        </div>
+        <div>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, totam sit. Minus commodi, vitae aliquid
+            molestias qui architecto, nostrum omnis magni rem sequi maiores! Reprehenderit, autem. Atque delectus
+            veritatis iusto!
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus temporibus et consequuntur architecto odit
+            fugit autem voluptate nulla. Nisi aperiam doloremque dolorem soluta consequuntur, praesentium ab recusandae
+            vero tenetur illum quaerat distinctio? Pariatur atque reprehenderit commodi veniam beatae tenetur dolorem
+            cupiditate consequatur architecto alias minima dignissimos tempore, libero distinctio quam iure. Officiis
+            fugiat dolorem fuga omnis magnam voluptates saepe sunt atque itaque optio nostrum quisquam dolorum totam
+            asperiores excepturi tempora architecto ipsum odio voluptatum magni, nulla dolores quo ducimus. Mollitia.
+        </div>
+        <div>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, totam sit. Minus commodi, vitae aliquid
+            molestias qui architecto, nostrum omnis magni rem sequi maiores! Reprehenderit, autem. Atque delectus
+            veritatis iusto!
+        </div>
+        <!-- <div>Hello Sample Div Grid</div> -->
+    </div>
+</body>
+
+</html>
